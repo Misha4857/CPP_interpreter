@@ -1,0 +1,12 @@
+struct A {
+    char x;
+};
+
+float main(){
+    for (int i = 0; i < 5; i++) {
+        print(i);
+    }
+    A h;
+    read(h.x);
+    return sizeof(h);
+}
